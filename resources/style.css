@@ -2,15 +2,11 @@ html {
   font-size: 18px;
 }
 
-
 header {
   background-color: black;
   color: white;
   height: 4.1rem;
 }
-
-
-
 
 .logo img {
   height: 30px;
@@ -49,20 +45,23 @@ width: 350px;
 .container{
   color: white;
   background-color: black;
-  width: 30em;
+  /* width: 30em; */
   height: 15em;
-  position: relative;
+  /* position: relative; */
+  margin:auto;
+  width:75%;
   top: 75px;
-  left: 200px;
+  /* left: 200px; */
 
 }
 
 
  .headline {
   font-size: 1em;
-  position: relative;
+  /* position: relative; */
   left: 2.2em;
   top: 3.7em;
+  /* width:80%; */
 }
 
 .headline h4 {
@@ -104,6 +103,18 @@ nav a {
   font-size: 18px;
 }
 
+.banner
+{
+  color: white;
+  background-color: black;
+  position: relative;
+  /* margin:auto; */
+  width:30%;
+  height:30%;
+  top: 75px;
+  left: 15%;
+  padding:25px 15px;
+}
 
 /*Sample Items*/
 
@@ -112,9 +123,14 @@ nav a {
   display: flex;
   justify-content: space-between;
   margin: 3em 0 0 0;
+  background-color:white;
+  margin: auto;
 }
 .product {
-  width: 30%;
+  margin:5% 0;
+  width: 25%;
+  float:left;
+  background-color:white;
 }
 .product-image {
   border: 4px solid black;
@@ -143,3 +159,88 @@ nav a {
   color: white;
   padding: 1em 2em;
 }
+
+.information .location {
+  background-color: black;
+  color: white;
+  width: 22%;
+  height: 2rem;
+  padding: 1em 2em;
+}
+
+.coordinate {
+  position: relative;
+  top: 7.2rem;
+  left: 10rem;
+}
+
+.information .hours {
+  background-color: black;
+  color: white;
+  width: 28.2%;
+  height: 4.6rem;
+}
+
+.location {
+  position: relative;
+  top: 7rem;
+  left: 10rem;
+  height: 2rem;
+  font-size: 23px;
+}
+
+
+
+.hours {
+  position: relative;
+  left: 47.5rem;
+  top: 1.4rem;
+  }
+
+  .cob {
+    position: relative;
+    left: 47.5rem;
+    top: 1.5rem;
+  }
+
+  .hours span {
+    padding: 2rem 2rem;
+    font-size: 23px;
+    position: relative;
+    top: 1.5rem;
+  }
+
+  .location span {
+    position: relative;
+    top: .5rem;
+  }
+
+  /*Footer*/
+
+  footer {
+    color: white;
+    background-color: black;
+    margin-top: 7rem;
+    height: 10rem;
+    }
+
+    footer span {
+      position: relative;
+      top: 5rem;
+      left: 7rem;
+    }
+
+    /*Media queries*/
+
+    @media only screen and (max-width: 1024px){
+      .main-banner h4 {
+        font-size: .9em
+      }
+      .main-banner h1 {
+        font-size: 1.5em;
+      }
+      nav .contain {
+        li
+      }
+
+    }
