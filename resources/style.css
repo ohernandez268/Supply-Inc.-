@@ -239,8 +239,15 @@ nav a {
       .main-banner h1 {
         font-size: 1.5em;
       }
-      nav .contain {
-        display: none; 
+      .contain {
+        display: none;
       }
-
+      #tablet-nav {
+      display: block;
+      color: white;
+      position: relative;
+      top: 1em;
+      font-size: 18px;
+      font-weight: bold;
+     }
     }
