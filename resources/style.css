@@ -250,4 +250,38 @@ nav a {
       font-size: 18px;
       font-weight: bold;
      }
-    }
+
+     .glasses {
+       display: none;
+     }
+
+     .product {
+       width: 50%;
+       }
+
+      .watch {
+        margin-left: 8em;
+      }
+
+      .information {
+      position: relative;
+      right: 8em;
+      }
+
+      .location {
+        position: relative;
+        left: 26.6%;
+      }
+
+      .coordinate {
+        position: relative;
+        left: 26.6%;
+      }
+
+      .hours {
+        position: relative;
+        right: 12em;
+      }
+
+
+}
